@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Purpose
 
-This is to trying to branch out and learn new tools, I am testing my hand a React JS whilst following a video tutorial available here: [Build and Deploy a Fully Responsive Modern UI/UX Website in React JS](https://www.youtube.com/watch?v=LMagNcngvcU). Though, by the time I am done, this will look nothing like the video intended. - Charlie 
+This is to trying to branch out and learn new tools, I am testing my hand a React JS whilst following a video tutorial available here: [Build and Deploy a Fully Responsive Modern UI/UX Website in React JS](https://www.youtube.com/watch?v=LMagNcngvcU). Though, by the time I am done, this will look nothing like the video intended. 
+
+- Charlie 
 
 ## Available Scripts
 
