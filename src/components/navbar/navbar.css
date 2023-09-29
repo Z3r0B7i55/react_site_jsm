@@ -27,16 +27,14 @@
     flex-direction: row;
 }
 
-/* For the sign in button, which will remain unused.
 .portfolio__navbar-sign {
     display:flex;
     justify-content: flex-end;
     align-items:center;
 }
-*/
 
 .portfolio__navbar-links_container p,
-/* .portfolio__navbar-sign p, */
+.portfolio__navbar-sign p,
 .portfolio__navbar-menu_container p {
     color: #fff;
     font-family: var(--font-family);
@@ -49,7 +47,6 @@
     cursor: pointer;
 }
 
-/* For the sign in button, which will remain unused.
 .portfolio__navbar-sign button,
 .portfolio__navbar-menu_container button {
     padding:0.5rem 1rem;
@@ -64,7 +61,6 @@
     outline: none;
     cursor: pointer;
 }
-*/
 
 .portfolio__navbar-menu {
     margin-left: 1rem;
@@ -87,6 +83,7 @@
     background: var(--color-footer);
     padding: 2rem;
     position: absolute;
+    right: 0;
     top: 40px;
     right: 0;
     margin-top: 1rem;
@@ -103,12 +100,37 @@
     display: none;
 }
 
-@media screen and (max-width: 1050px) { /* TODO: 1:02:48 */
-    .portfolio_navbar-links_container {
+@media screen and (max-width: 1050px) { 
+    .portfolio__navbar-links_container {
         display: none;
     }
 
     .portfolio__navbar-menu {
-        display:flex;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) { 
+    .portfolio_navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) { 
+    .portfolio_navbar {
+        padding: 2rem;
+    }
+
+    For sign-up button
+    .portfolio__navbar-sign {
+        display: none;
+    }
+
+    .portfolio__navbar-menu_container {
+        top: 20px;
+    }
+
+    .portfolio__navbar-menu_container-links-sign {
+        display: block;
     }
 }
