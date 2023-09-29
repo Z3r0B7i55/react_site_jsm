@@ -28,9 +28,9 @@
 }
 
 .portfolio__navbar-sign {
-    display:flex;
+    display: flex;
     justify-content: flex-end;
-    align-items:center;
+    align-items: center;
 }
 
 .portfolio__navbar-links_container p,
@@ -49,17 +49,17 @@
 
 .portfolio__navbar-sign button,
 .portfolio__navbar-menu_container button {
-    padding:0.5rem 1rem;
+    padding: 0.5rem 1rem;
     color: #fff;
     background: #FF4820;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
-    line-height:25px;
-    border-radius: 5px;
-    border: 0;
+    line-height: 25px;
+    border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .portfolio__navbar-menu {
@@ -85,7 +85,6 @@
     position: absolute;
     right: 0;
     top: 40px;
-    right: 0;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
@@ -107,6 +106,7 @@
 
     .portfolio__navbar-menu {
         display: flex;
+        /* todo */
     }
 }
 

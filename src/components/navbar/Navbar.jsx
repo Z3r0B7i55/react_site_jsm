@@ -24,16 +24,14 @@ const Navbar = () => {
           <Menu />
         </div>
 
-        {/*
         <div className="portfolio__navbar-sign">
-          <p>Sign in</p>
-          <button type="button"> Sign up</button>
+          <p> </p>
+          <button type="button"> </button>
         </div>
-        */}
 
         <div className="portfolio__navbar-menu">
           {toggleMenu
-            ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)}  />
+            ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
             : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
           }
           {toggleMenu && (
@@ -42,12 +40,10 @@ const Navbar = () => {
                 <Menu />
               </div>
               
-              {/*
               <div className="portfolio__navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <p> </p>
+                <button type="button"> </button>
               </div>
-              */}
 
             </div>
           )}
