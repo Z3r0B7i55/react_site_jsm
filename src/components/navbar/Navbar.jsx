@@ -24,10 +24,10 @@ const Navbar = () => {
           <Menu />
         </div>
 
-        <div className="portfolio__navbar-sign">
+        {/*<div className="portfolio__navbar-sign">
           <p> </p>
           <button type="button"> </button>
-        </div>
+        </div>*/}
 
         <div className="portfolio__navbar-menu">
           {toggleMenu
@@ -40,11 +40,10 @@ const Navbar = () => {
                 <Menu />
               </div>
               
-              <div className="portfolio__navbar-menu_container-links-sign">
+              {/*<div className="portfolio__navbar-menu_container-links-sign">
                 <p> </p>
                 <button type="button"> </button>
-              </div>
-
+              /div>*/}
             </div>
           )}
         </div>
