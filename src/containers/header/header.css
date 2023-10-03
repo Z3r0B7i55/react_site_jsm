@@ -130,6 +130,63 @@
     }
 
     .portfolio__header-content {
+        margin: 5%;
         margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio__header-content {
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__header-content {
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .portfolio__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .portfolio__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .portfolio__header-content__people {
+        flex-direction: column;
+    }
+
+    .portfolio__header-content__people p {
+        margin: 0;
+    }
+
+    .portfolio__header-content__input input,
+    .portfolio__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .portfolio__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .portfolio__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .portfolio__header-content__input input,
+    .portfolio__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
     }
 }
