@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import {Blog, Features, Footer, Header, Possibility, WhatGPT3, whatGPT3} from './containers';
 import {Brand, CTA, Navbar} from './components';
