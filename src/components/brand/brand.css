@@ -1,113 +1,17 @@
 .portfolio__brand {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio__brand div {
-    flex: 1;
-    max-width: 150px;
-    min-width: 120px;
-    margin: 1rem;
+  flex: 1;
+  max-width: 150px;
+  min-width: 120px;
+  margin: 1rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.portfolio__brand-wrapper 
-.portfolio__brand-button{
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  float: left;
-  margin: 0 5px;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 50px;
-  cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  transition: all 0.3s ease-out;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:hover{
-  width: 200px;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button 
-.portfolio__brand-icon{
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  text-align: center;
-  border-radius: 50px;
-  box-sizing: border-box;
-  line-height: 60px;
-  transition: all 0.3s ease-out;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(1):hover 
-.portfolio__brand-icon{
-  background: #4267B2;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(2):hover 
-.portfolio__brand-icon{
-  background: #1DA1F2;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(3):hover 
-.portfolio__brand-icon{
-  background: #E1306C;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(4):hover 
-.portfolio__brand-icon{
-  background: #333;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(5):hover 
-.portfolio__brand-icon{
-  background: #ff0000;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button 
-.portfolio__brand-icon i{
-  font-size: 25px;
-  line-height: 60px;
-  transition: all 0.3s ease-out;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:hover 
-.portfolio__brand-icon i{
-  color: #fff;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button span{
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 60px;
-  margin-left: 10px;
-  transition: all 0.3s ease-out;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(1) span{
-  color: #4267B2;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(2) span{
-  color: #1DA1F2;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(3) span{
-  color: #E1306C;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(4) span{
-  color: #333;
-}
-.portfolio__brand-wrapper 
-.portfolio__brand-button:nth-child(5) span{
-  color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
